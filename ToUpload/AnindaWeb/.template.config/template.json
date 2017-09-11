@@ -1,0 +1,54 @@
+﻿{
+  "$schema": "http://json.schemastore.org/template",
+  "classifications": [ "Web" ], 
+  "name": "Aninda Sample Web",
+  "identity": "AnindaWeb",         
+  "groupIdentity":"AnindaWeb",
+  "shortName": "anindawebapp",
+  "tags": {
+    "language": "C#",
+    "type":"project"
+  },
+  "sourceName": "AnindaWeb",
+  "preferNameDirectory": true,
+  "symbols":{
+    "CopyrightName": {
+      "type": "parameter",
+      "defaultValue": "Aninda Basu",
+      "replaces":"My ASP.NET Application"
+    },
+    "Title": {
+      "type": "parameter",
+      "defaultValue": "Aninda Title",
+      "replaces":"My ASP.NET Application"
+    },
+    "ContactPage":{
+      "type": "parameter",
+      "dataType":"string",
+      "defaultValue": "false"
+    },
+	"AboutPage":{
+      "type": "parameter",
+      "dataType":"string",
+      "defaultValue": "false"
+	  }
+  },
+"sources": [
+    {
+      "modifiers": [
+        {
+          "condition": "(!ContactPage)",
+          "exclude": [
+            "AnindaWeb/Views/Home/Contact.cshtml"
+          ]
+        },
+		{
+          "condition": "(!AboutPage)",
+          "exclude": [
+            "AnindaWeb/Views/Home/About.cshtml"
+          ]
+        }
+      ]
+    }
+  ]
+}

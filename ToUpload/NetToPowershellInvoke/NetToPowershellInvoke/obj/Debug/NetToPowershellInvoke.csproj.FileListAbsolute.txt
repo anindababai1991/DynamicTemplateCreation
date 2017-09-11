@@ -1,0 +1,7 @@
+c:\users\aninda.basu\documents\visual studio 2015\Projects\NetToPowershellInvoke\NetToPowershellInvoke\bin\Debug\NetToPowershellInvoke.exe.config
+c:\users\aninda.basu\documents\visual studio 2015\Projects\NetToPowershellInvoke\NetToPowershellInvoke\bin\Debug\NetToPowershellInvoke.exe
+c:\users\aninda.basu\documents\visual studio 2015\Projects\NetToPowershellInvoke\NetToPowershellInvoke\bin\Debug\NetToPowershellInvoke.pdb
+c:\users\aninda.basu\documents\visual studio 2015\Projects\NetToPowershellInvoke\NetToPowershellInvoke\bin\Debug\System.Management.Automation.dll
+c:\users\aninda.basu\documents\visual studio 2015\Projects\NetToPowershellInvoke\NetToPowershellInvoke\obj\Debug\NetToPowershellInvoke.csprojResolveAssemblyReference.cache
+c:\users\aninda.basu\documents\visual studio 2015\Projects\NetToPowershellInvoke\NetToPowershellInvoke\obj\Debug\NetToPowershellInvoke.exe
+c:\users\aninda.basu\documents\visual studio 2015\Projects\NetToPowershellInvoke\NetToPowershellInvoke\obj\Debug\NetToPowershellInvoke.pdb
